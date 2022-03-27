@@ -1,6 +1,6 @@
 package unit_01;
 
-public class task_01 {
+public class P2_Task01_KeywordsInJava {
     class A {
         int b;
     }
