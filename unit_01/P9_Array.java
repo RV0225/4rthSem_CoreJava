@@ -21,8 +21,8 @@ public class P9_Array {
 		// obj.sortAnArray(array);
 		// obj.findTheDuplicateElements(array);
 		// obj.findSecondLargestAndSecondSmallestElement(array);
-		// obj.leftRotationInAnArray(array);
-		obj.removeElementInArray(array); // (Optional)
+		obj.leftRotationInAnArray(array);
+		// obj.removeElementInArray(array); // (Optional)
 
 	}
 
