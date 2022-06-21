@@ -26,7 +26,7 @@ class OperatorInJava {
         System.out.println(~a);
         // "Not" Operator(!)
         System.out.println(!b);
-        System.out.println("\n");
+
     }
 
     void ArithmeticOperator() {
@@ -39,7 +39,7 @@ class OperatorInJava {
         System.out.println(a / b);
         System.out.println(a % b);
         System.out.println(10 * 10 / 5 + 3 - 1 * 4 / 2);
-        System.out.println("\n");
+
     }
 
     void ShiftOperator() {
@@ -51,7 +51,7 @@ class OperatorInJava {
         System.out.println(10 >> 2);
         System.out.println(20 >> 2);
         System.out.println(20 >> 3);
-        System.out.println("\n");
+
     }
 
     void RelationalOperator() {
@@ -64,7 +64,7 @@ class OperatorInJava {
         System.out.println(a < b);
         System.out.println(a >= b);
         System.out.println(a <= b);
-        System.out.println("\n");
+
     }
 
     void BitwiseAndLogicalOperator() {
@@ -84,7 +84,6 @@ class OperatorInJava {
         System.out.println(a);
         System.out.println("Bitwise Inclusive OR:" + (12 | 12));
         System.out.println("Bitwise Exclusive OR:" + (12 ^ 12));
-        System.out.println("\n");
 
     }
 
@@ -94,7 +93,7 @@ class OperatorInJava {
         int b = 5;
         int min = (a < b) ? a : b;
         System.out.println(min);
-        System.out.println("\n");
+
     }
 
     void AssignmentOperator() {
@@ -111,7 +110,6 @@ class OperatorInJava {
         System.out.println(a);
         a /= 2;
         System.out.println(a);
-        System.out.println("\n");
 
     }
 }

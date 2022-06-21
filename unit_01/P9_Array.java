@@ -3,14 +3,6 @@ package unit_01;
 import java.util.Vector;
 import java.util.*;
 
-/* Tasks given below:
-		obj.sortAnArray(array);
-		obj.findTheDuplicateElements(array);
-		obj.findSecondLargestAndSecondSmallestElement(array);
-		obj.leftRotationInAnArray(array); 
-		obj.removeElementInArray(array);//(Optional)
- */
-
 public class P9_Array {
 
 	public static void main(String[] args) {
@@ -18,11 +10,10 @@ public class P9_Array {
 		int[] array = { 1, 2, 3, 4, 5, 4, 2, 3, 6 };
 
 		QuestionsOnArray obj = new QuestionsOnArray();
-		// obj.sortAnArray(array);
-		// obj.findTheDuplicateElements(array);
-		// obj.findSecondLargestAndSecondSmallestElement(array);
+		obj.sortAnArray(array);
+		obj.findTheDuplicateElements(array);
+		obj.findSecondLargestAndSecondSmallestElement(array);
 		obj.leftRotationInAnArray(array);
-		// obj.removeElementInArray(array); // (Optional)
 
 	}
 
@@ -42,7 +33,7 @@ class QuestionsOnArray {
 			arr[j + 1] = min;
 		}
 		for (int i = 0; i < arr.length; i++) {
-			System.out.println(arr[i]);
+			System.out.print(arr[i] + " ");
 		}
 
 	}
@@ -64,6 +55,7 @@ class QuestionsOnArray {
 				v.add(arr[i]);
 			}
 		}
+		System.out.println("\nDuplicate Elements are: ");
 		System.out.println(v);
 	}
 
@@ -103,7 +95,7 @@ class QuestionsOnArray {
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + " ");
 		}
-
+		obj.close();
 	}
 
 	void reverse(int arr[], int i, int j) {
