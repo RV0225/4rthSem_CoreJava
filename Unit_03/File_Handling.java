@@ -6,13 +6,13 @@ import java.util.*;
 public class File_Handling {
     public static void main(String[] args) throws IOException {
         File f = new File(
-                "C:\\Users\\ranvir singh rawat\\Dropbox\\My PC (LAPTOP-HJKRRIC2)\\Documents\\Java_4rthSem\\Unit_03\\abc.txt");
+                "C:\\Users\\ranvir singh rawat\\Dropbox\\My PC (LAPTOP-HJKRRIC2)\\Documents\\Java_4rthSem\\Unit_03\\abcd.txt");
         if (f.createNewFile()) {
             System.out.println(f.getName());
         }
         try {
             BufferedWriter br = new BufferedWriter(new FileWriter(
-                    "C:\\Users\\ranvir singh rawat\\Dropbox\\My PC (LAPTOP-HJKRRIC2)\\Documents\\Java_4rthSem\\Unit_03\\abc.txt"));
+                    "C:\\Users\\ranvir singh rawat\\Dropbox\\My PC (LAPTOP-HJKRRIC2)\\Documents\\Java_4rthSem\\Unit_03\\abcd.txt"));
             String s;
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter an string :");
@@ -23,7 +23,7 @@ public class File_Handling {
             e.printStackTrace();
         }
         FileReader fr = new FileReader(
-                "C:\\Users\\ranvir singh rawat\\Dropbox\\My PC (LAPTOP-HJKRRIC2)\\Documents\\Java_4rthSem\\Unit_03\\abc.txt");
+                "C:\\Users\\ranvir singh rawat\\Dropbox\\My PC (LAPTOP-HJKRRIC2)\\Documents\\Java_4rthSem\\Unit_03\\abcd.txt");
 
         BufferedReader bb = new BufferedReader(fr);
         String r;
